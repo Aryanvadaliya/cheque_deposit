@@ -1,3 +1,2 @@
 # cheque_deposit
-
-chequeclearing.aav
+https://aryanvadaliya.github.io/cheque_deposit/
