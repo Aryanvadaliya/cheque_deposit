@@ -1,0 +1,91 @@
+/* Use a consistent color scheme for your website */
+:root {
+    --primary-color: #0078d4; /* blue */
+    --secondary-color: #ffffff; /* white */
+    --tertiary-color: #f0f0f0; /* light gray */
+}
+
+/* Style the header element */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    display: grid;
+    margin-top: 20px;
+}
+/* Style the form element */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Style the input field and the button */
+input, button {
+    width: 300px;
+    height: 40px;
+    border: none;
+    
+    justify-self: center;
+    margin-top: 10px;
+}
+
+/* Use a simple and clear label for the input field */
+label {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    justify-self: center;
+    
+}
+
+/* Use a contrast color for the button and add some hover effect */
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Style the image container and the image element */
+#cheque-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#cheque-image {
+    width: 600px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/* Style the table element and its children elements */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid var(--tertiary-color);
+    padding: 10px;
+    height: 20px;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
