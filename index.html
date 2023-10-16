@@ -15,11 +15,18 @@
     </header>
     <main>
     
-            <label for="imgInput">Select a cheque image file:</label>
-            <input type="file" id="imgInput" required>
+            <label for="imgInput">click cheque image file:</label>
+            
+            <!-- <input type="file" id="imgInput" accept="image/*" capture="user"/>
             
             <div id="cheque-image-container">
-            <img id="img" alt="IMAGE">
+            <img id="img" alt="IMAGE"> -->
+
+            <video id="video" width="612" height="280" autoplay></video>
+            <button id="snap">Snap Photo</button>
+            <canvas id="canvas" width="612" height="280"></canvas>
+
+
         </div>
         <table id="cheque-data-table">
             <tr>
